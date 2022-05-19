@@ -1,0 +1,85 @@
+# Default values for arichnettools.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+text: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUdIRENDQkFTZ0F3SUJBZ0lVY0dscjlCVVNPQXdVdDNTRGhhdjl5V29rWkRvd0RRWUpLb1pJaHZjTkFRRU4KQlFBd2VURU1NQW9HQTFVRUJoTURWVk5CTVJNd0VRWURWUVFJRXdwRFlXeHBabTl5Ym1saE1SWXdGQVlEVlFRSApFdzFUWVc0Z1JuSmhibU5wYzJOdk1RMHdDd1lEVlFRS0V3UmxkR05rTVJZd0ZBWURWUVFMRXcxbGRHTmtJRk5sClkzVnlhWFI1TVJVd0V3WURWUVFERXd4bGRHTmtMWEp2YjNRdFkyRXdIaGNOTVRjd01USTJNVGt4TlRBd1doY04KTVRjd01USTJNakF4TlRBd1dqQjRNUXd3Q2dZRFZRUUdFd05WVTBFeEV6QVJCZ05WQkFnVENrTmhiR2xtYjNKdQphV0V4RmpBVUJnTlZCQWNURFZOaGJpQkdjbUZ1WTJselkyOHhEVEFMQmdOVkJBb1RCR1YwWTJReEZqQVVCZ05WCkJBc1REV1YwWTJRZ1UyVmpkWEpwZEhreEZEQVNCZ05WQkFNVEMyVjRZVzF3YkdVdVkyOXRNSUlDSWpBTkJna3EKaGtpRzl3MEJBUUVGQUFPQ0FnOEFNSUlDQ2dLQ0FnRUFyakpHN0JrRFhHSjdJSmVVYnQ5aWxYWmwvU3FLVlluUQpRY2JBVnFLS3NaT1VUbldsallnc2xYSVZESkFZVUNaMldOelhySHE2WE9ZNHFiZk5qRElkcTI4aGxxK0V5ZE1PClU5VC8xV3JGQVNiaUpkckNtRkgxWFVYOVNJbUR3OXFEaXQyUzRieFc1Z3MrUTZjU1JTR3lIZis2L0REMjROWTIKVlAzcXBqd2FFQnlaR1o3Szc2OXpSQmhvSTJzV3NsaWx6dFFLdWlWZGVUUk5xTXRDRC9RYTRKSWl3eXptWU93SwpFZCtraXRyc1B3VVFnLzExUk5iVUhaRXk1MUdDemVaNDY3RGNqblhpR0hzQUY2Wk16bkR2UFk4R1U3MUpZa0JOCjFUcThJUVZlOXllbXFrNlNVWFlvSkpuZWJYM1dNdkNaK1hMS1lXT2JBTlFwWHhIc3U2dDY4SGtjZzViRFRUYmcKNzlKQVM4Y283d2YxUzNOQTNRdWRoclRmM2FudmRidGFaRnVrdXNRYlZuSDdxU3A1TEZUbGUrVmw3TWVneTAvagp1Q0JMOS94TVNwV3FVd1VsN2V2ZnJtL0prVm1Db0dtMis1NnVDeXJWSzl1UlJyYXFwN0oxOVJ1Tm1odW5PaVVSCk42MTBEanNpc0kxZXFBSFNuYUR0TWx1d0JjK0hFYUpXWXpKTjFKTHZHQTNhaE95T2N2OTRGWjFtc2FicTIwdHgKdnA1b0hMZDdqOVRhVkdvYnFTYkRHTFpHSHJtNUlmL3gyKzFEYzlPNTVPbS84MlE4cjFReHQrR3FWWCtURmVkNwpBdkJIRlRZYkJpVzVnVDhNU3FNYjkxdCtNWW1DOUNoRmJXZXBDMzVJNnpvSFgxQjFDZ1YyMGxyNVBIMXdZTytrCjBJZE82dWZaWUJjQ0F3RUFBYU9CbkRDQm1UQU9CZ05WSFE4QkFmOEVCQU1DQmFBd0hRWURWUjBsQkJZd0ZBWUkKS3dZQkJRVUhBd0VHQ0NzR0FRVUZCd01DTUF3R0ExVWRFd0VCL3dRQ01BQXdIUVlEVlIwT0JCWUVGRTdNVFB1TQpETkgrZWR0empuakIrOFR1d3g2Mk1COEdBMVVkSXdRWU1CYUFGR2RzOVNhQktaUUxjQThqYmd4RG5IOWVIVHpICk1Cb0dBMVVkRVFRVE1CR0NDV3h2WTJGc2FHOXpkSWNFZndBQUFUQU5CZ2txaGtpRzl3MEJBUTBGQUFPQ0FnRUEKUzFLeC8rTDVVTkFqdlhvRFdBdkZKTUlwUWNzRmhWNnZqL3Nid3hnd1hUS2pRSE9PZWhFd2FhRVc3MzVFRG1oQwo0Q0xneU05NGk3ZUZFR3dBVndXcG5oNlhBZnFDTUdkMzJUNWFSUGt0aUdxblErYUFWZEMvZmdtV1dLcUE3aXg1CkJzamc5V2J1Qlp2STF0QUlzY3E3YWplSEZCYi9tbmRnUDJrUkpmOFJkN05IM1ZzbUxIbEs2S0t3ZS9UaEt2d1oKSVJUZk43QUJXektxL01tR1VPV3VCaVFhTE03RFQwNW0zSVNwTjNZQ0hKTDRIUmpMejZXWjl2UDNHTERjckM4SAphN1RQaXpqQjMvK3krK2h0bkRCaFZBQVZsNEdnb2xSWnpqa3pFUnhEWmx2eVk3VDhzZnE5YSs5R0dIZ1JYQjh2Cjl3V09ZcGgycjhLMWFQYVZQdzg4Y3JpOWw5OTNnK3ZXZ0toRXNlK0pvaUhnY3lDcDJWam5NNmNwTWhDUGt0QnAKWUJaL2pCbWE1RVFvTElkQkZtRGNIL3RWczZsNm8vOUozcTJ4K2ZQWllaa3Z5dVVieGIrVGRSWmxsQ3F4MW15eQpZeENHVExkaldFSFFiZGNWYzh0b3RMUGdKaWsyTGpGb1BBdllncnFPMG8zdlR6MW9hZ0xid2llNEQydUs5QXRzCnB1NEt4R0NzRHR6eWYvdzlzQlp0aS9vdklndHRCN0l4ZUZXWllJV1ZSQ2tKa3JlOXJtOHFtYUNtTVkyRnZCRFkKbkJTVGxkYUxwSEFyeWpsZXl1L1dZZHFXOFFjK0VxSVBDekN2SmtyS2ZoWkVON0FUN3ZGd212bk9qSmV0RmRFTApVTkozd3lJVEJadGlNUkFJbk1rUmkzekZlSFRWcWFvY2tML0ZvcGxrWTRRPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: ""
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
+
+podAnnotations: {}
+
+podSecurityContext: {}
+  # fsGroup: 2000
+
+securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: false
+  annotations: {}
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  hosts:
+    - host: chart-example.local
+      paths:
+      - path: /
+        backend:
+          serviceName: chart-example.local
+          servicePort: 80
+  tls: []
+  #  - secretName: chart-example-tls
+  #    hosts:
+  #      - chart-example.local
+
+resources: {}
+  # We usually recommend not to specify default resources and to leave this as a conscious
+  # choice for the user. This also increases chances charts run on environments with little
+  # resources, such as Minikube. If you do want to specify resources, uncomment the following
+  # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+  # limits:
+  #   cpu: 100m
+  #   memory: 128Mi
+  # requests:
+  #   cpu: 100m
+  #   memory: 128Mi
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 100
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

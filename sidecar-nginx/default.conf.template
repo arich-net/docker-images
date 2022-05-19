@@ -1,0 +1,24 @@
+server {
+    listen %NGINX_PORT% ssl;
+    server_name  localhost;
+
+    location / {
+        proxy_pass http://127.0.0.1:%NGINX_FORWARD_PORT%;
+    }
+    port_in_redirect off;
+    
+    ssl_certificate /certs/tls.crt;
+    ssl_certificate_key /certs/tls.key;
+}
+
+server {
+    listen 8081;
+
+    location /status {
+        vhost_traffic_status_display;
+        vhost_traffic_status_display_format html;
+        allow all;
+    }
+}
+
+

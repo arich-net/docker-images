@@ -1,0 +1,4 @@
+template:
+   value : |-
+      {{- .Values.text | b64dec | nindent 6 }}
+   key2 : "hello"
